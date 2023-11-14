@@ -1,0 +1,45 @@
+{C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CounterHigh
+-- Compiling module ProgramCounter
+
+Top level modules:
+	CounterHigh
+	ProgramCounter
+
+} {} {}} {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder3to8
+-- Compiling module decoder8to1
+-- Compiling module mux8to1
+
+Top level modules:
+	Decoder3to8
+	decoder8to1
+	mux8to1
+
+} {} {}} {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/function_register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/function_register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module function_register
+
+Top level modules:
+	function_register
+
+} {} {}} {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/register_banks.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/register_banks.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+-- Compiling module register8
+-- Compiling module register_bank
+
+Top level modules:
+	register
+	register_bank
+
+} {} {}}

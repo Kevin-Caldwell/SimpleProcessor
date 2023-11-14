@@ -1,0 +1,18 @@
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# 5 compiles, 0 failed with no errors.
+do processor_test.sv
+# Cannot open macro file: processor_test.sv
+do processor_test.do
+# Cannot open macro file: processor_test.do
+ls
+# ALU                     Testing       transcript  
+# SimpleProcessor.cr.mti  decoder.sv    work        
+# SimpleProcessor.mpf     processor.sv              
+cd Testing
