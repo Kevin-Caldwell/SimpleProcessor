@@ -7,7 +7,7 @@ vsim processor -suppress 3839
 log -r {/*}
 add wave {/*}
 
-radix unsigned
+radix hexadecimal
 
 force clock 1 0ps, 0 1ps -r 2ps
 
@@ -31,6 +31,33 @@ run 4ps
 
 force start 1
 force machine_code 12'b000_001_010_000
+
+run 2ps
+
+force start 0
+
+run 10ps
+
+force start 1
+force machine_code 12'b011_001_010_000
+
+run 2ps
+
+force start 0
+
+run 10ps
+
+force start 1
+force machine_code 12'b011_001_010_000
+
+run 2ps
+
+force start 0
+
+run 10ps
+
+force start 1
+force machine_code 12'b011_001_010_000
 
 run 2ps
 

@@ -1,7 +1,7 @@
 
 module ALU(input logic clk, input logic async_reset, 
     input logic[7:0] bus,
-    input logic a_in, b_in, save_result, 
+    input logic[2:0] enable_signals, 
     input logic[3:0] func_sel, 
     output logic[7:0] result);
 
@@ -15,13 +15,13 @@ module ALU(input logic clk, input logic async_reset,
             result <= 8'b0;
         end
         else begin
-            if(a_in) begin
+            if(enable_signals[0]) begin
                 a_i <= bus; 
             end
-            if(b_in) begin
+            if(enable_signals[1]) begin
                 b_i <= bus;
             end
-            if(save_result) begin
+            if(enable_signals[2]) begin
                 result <= r_i;
             end
         end
@@ -37,6 +37,7 @@ module ALU(input logic clk, input logic async_reset,
             'b1001: r_i = a_i + b_i;
             'b1010: r_i = a_i - b_i;
             'b1011: r_i = a_i ^ b_i;
+
             default: r_i = 8'b0;
         endcase
     end

@@ -1,21 +1,24 @@
 module processor(input logic clock, reset, start, 
     input logic[11:0] machine_code, 
     input logic[7:0] dataIN,
-    output logic data, done);
+    output logic data_enable, done, 
+    output logic[63:0] reg_test, 
+    output logic[7:0] BUS_global);
 
-    logic[7:0] BUS_global;
+    //logic[7:0] BUS_global;
     logic[4:0] function_counter;
     logic[3:0] ALU_function_select, display_enable;
     logic[2:0] enable_register_write, enable_register_read;
     logic[2:0] ALU_enable; // Enable order: 0:A, 1:B, 2:Out
     logic[2:0] opcode, p1, p2, p3; 
 
+
     assign opcode = machine_code[11:9];
     assign p1 = machine_code[8:6];
     assign p2 = machine_code[5:3];
     assign p3 = machine_code[2:0];
 
-    ProgramCounter #(4) c0 (
+    ProgramCounter c0 (
         .clock(clock),
         .reset(reset),
         .enable(start),
@@ -26,18 +29,17 @@ module processor(input logic clock, reset, start,
         .CLK(clock),
         .RESET(reset),
         .enIn(enable_register_write),
-        .enOut(enable_register_write),
+        .enOut(enable_register_read),
         .IN(BUS_global),
-        .OUT(BUS_global)
+        .OUT(BUS_global), 
+        .test_out(reg_test)
     );
 
     ALU a0(
         .clk(clock), 
         .async_reset(reset), 
         .bus(BUS_global), 
-        .a_in(ALU_enable[0]), 
-        .b_in(ALU_enable[1]), 
-        .save_result(ALU_enable[2]),
+        .enable_signals(ALU_enable),
         .func_sel(ALU_function_select), 
         .result(BUS_global)
     );
@@ -50,7 +52,7 @@ module processor(input logic clock, reset, start,
         .p1(p1), 
         .p2(p2), 
         .p3(p3), 
-        .data(data), 
+        .data_enable(data_enable), 
         .done(done), 
         .display(display_enable), 
         .fcnOut(ALU_function_select), 
@@ -60,7 +62,7 @@ module processor(input logic clock, reset, start,
     );
 
     always_comb begin
-        if(data) begin
+        if(data_enable) begin
             BUS_global = dataIN;
         end
     end

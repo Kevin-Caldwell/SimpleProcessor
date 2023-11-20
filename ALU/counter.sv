@@ -22,12 +22,13 @@ module ProgramCounter #(parameter COUNT = 4) (
     input logic clock, reset, enable,
     output logic[COUNT:0] out
 );
-    always_ff @( posedge clock, posedge reset ) begin
+    always_ff @( posedge clock, posedge reset, posedge enable) begin
         if(reset || enable) begin
             out <= {{COUNT{1'b0}}, 1'b1};
+            $display("Reset Counter Value: %0b", out);
         end else begin
             out <= out << 1'b1;
         end
-        $display("counter up, %d", out);
+        //$display("counter up, %d", out);
     end
 endmodule

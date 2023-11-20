@@ -29,7 +29,7 @@ endmodule
 module register_bank(input logic CLK, RESET, 
     input logic[2:0] enIn, enOut,
     input logic[7:0] IN, 
-    output logic[7:0] OUT);
+    output logic[7:0] OUT, output logic[63:0] test_out);
     logic[7:0] outBuff0, outBuff1,
         outBuff2, outBuff3, 
         outBuff4, outBuff5, 
@@ -39,7 +39,7 @@ module register_bank(input logic CLK, RESET,
 
     Decoder3to8 d0(enIn, enInX);
    
-    register8 r0(CLK, enInX[0], RESET, IN, outBuff0);
+    register8 r0(CLK, 1'b0, RESET, 8'b0, outBuff0);
     register8 r1(CLK, enInX[1], RESET, IN, outBuff1);
     register8 r2(CLK, enInX[2], RESET, IN, outBuff2);
     register8 r3(CLK, enInX[3], RESET, IN, outBuff3);
@@ -51,6 +51,18 @@ module register_bank(input logic CLK, RESET,
     mux8to1 m0(outBuff0, outBuff1, 
         outBuff2, outBuff3, 
         outBuff4, outBuff5, 
-        outBuff6, outBuff7, enOut, OUT);   
+        outBuff6, outBuff7, enOut, OUT);  
+
+    always_comb begin
+        test_out[7:0] = outBuff0;
+        test_out[15:8] = outBuff1;
+        test_out[23:16] = outBuff2;
+        test_out[31:24] = outBuff3;
+        test_out[39:32] = outBuff4;
+        test_out[47:40] = outBuff5;
+        test_out[55:48] = outBuff6;
+        test_out[63:56] = outBuff7;
+    end
+    
 
 endmodule

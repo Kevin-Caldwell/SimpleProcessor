@@ -1,18 +1,3256 @@
-# Compile of counter.sv was successful.
-# Compile of function_register.sv was successful.
-# 2 compiles, 0 failed with no errors.
 # Compile of decoder.sv was successful.
 # Compile of ALU.sv was successful.
 # Compile of counter.sv was successful.
 # Compile of function_register.sv was successful.
 # Compile of register_banks.sv was successful.
-# 5 compiles, 0 failed with no errors.
-do processor_test.sv
-# Cannot open macro file: processor_test.sv
-do processor_test.do
-# Cannot open macro file: processor_test.do
-ls
-# ALU                     Testing       transcript  
-# SimpleProcessor.cr.mti  decoder.sv    work        
-# SimpleProcessor.mpf     processor.sv              
-cd Testing
+# Compile of processor_tb.sv failed with 1 errors.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:11:42 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(30): near "operation": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 17:11:42 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 2
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:17:05 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(30): near "operation": syntax error, unexpected IDENTIFIER, expecting ')'.
+# End time: 17:17:05 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 2
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:19:08 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:19:08 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:19:08 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Machine Code: 0
+# 
+# counter up,  x
+# counter up,  1
+# counter up,  1
+# Machine Code: 200
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:20:10 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:20:11 on Nov 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:20:12 on Nov 19,2023, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:20:12 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# Machine Code: 0
+# 
+# Machine Code: 200
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:20:33 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:20:33 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:20:34 on Nov 19,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:20:34 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  2
+# counter up,  4
+# Machine Code: 200
+# 
+# counter up,  8
+# counter up, 16
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:22:06 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(30): near "endtask": syntax error, unexpected endtask.
+# End time: 17:22:06 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 2
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:22:21 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:22:21 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:22:22 on Nov 19,2023, Elapsed time: 0:01:48
+# Errors: 1, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:22:22 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 200
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:00 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:26:00 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:26:01 on Nov 19,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:26:01 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# ** Error (suppressible): (vsim-3389) Port 'BUS_global' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb/p0 File: Testing/processor_tb.sv Line: 11
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Testing/run_tb.do PAUSED at line 3
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+project open {C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/SimpleProcessor}
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:18 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:26:18 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:26:01 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 200
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:41 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:27:41 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:42 on Nov 19,2023, Elapsed time: 0:01:41
+# Errors: 1, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:27:42 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:05 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:30:05 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:07 on Nov 19,2023, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:30:07 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:30:36 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:30:36 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:37 on Nov 19,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:30:37 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:16 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:31:16 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:31:17 on Nov 19,2023, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:31:17 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:28 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:33:28 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:33:29 on Nov 19,2023, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 17:33:29 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:14:44 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:14:44 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:14:45 on Nov 19,2023, Elapsed time: 1:41:16
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:14:46 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:16:14 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:16:14 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:16:15 on Nov 19,2023, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 1
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:16:15 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# counter up,  X
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  1
+# counter up,  1
+# Machine Code: 278
+# 
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# counter up,  1
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:16:47 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:16:47 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:16:48 on Nov 19,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:16:48 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# counter up,  x
+# Reset Counter Value: x0
+# counter up,  X
+# Reset Counter Value: 1
+# counter up,  1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Machine Code: 278
+# 
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Reset Counter Value: 1
+# counter up,  1
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:18:21 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:18:21 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:18:22 on Nov 19,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 3
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:18:22 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  2
+# counter up,  4
+# Machine Code: 278
+# 
+# counter up,  8
+# counter up, 16
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# WARNING: No extended dataflow license exists
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv failed with 1 errors.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:16 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(56): near ",": syntax error, unexpected ',', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 19:30:16 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 3
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:37 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:30:37 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:30:38 on Nov 19,2023, Elapsed time: 0:12:16
+# Errors: 1, Warnings: 3
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:30:38 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# counter up,  2
+# counter up,  4
+# Machine Code: 278
+# 
+# counter up,  8
+# counter up, 16
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv failed with 1 errors.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:13 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:31:13 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:31:14 on Nov 19,2023, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:31:14 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# ** Error (suppressible): (vsim-3389) Port 'enable' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb/p0/c0 File: C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/processor.sv Line: 21
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Testing/run_tb.do PAUSED at line 4
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:33 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:31:33 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:31:14 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# counter up,  2
+# counter up,  1
+# counter up,  2
+# Machine Code: 278
+# 
+# counter up,  4
+# counter up,  8
+# counter up, 16
+# counter up,  0
+# counter up,  0
+# counter up,  0
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:33:15 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:33:15 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:33:16 on Nov 19,2023, Elapsed time: 0:02:02
+# Errors: 1, Warnings: 3
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:33:16 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# counter up,  2
+# counter up,  1
+# counter up,  2
+# Reset Counter Value: 100
+# counter up,  4
+# counter up,  1
+# counter up,  2
+# Machine Code: 278
+# 
+# counter up,  4
+# counter up,  8
+# counter up, 16
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:33:57 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:33:58 on Nov 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:33:59 on Nov 19,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:33:59 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# counter up,  2
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# counter up,  2
+# Reset Counter Value: 100
+# counter up,  4
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# counter up,  2
+# Machine Code: 278
+# 
+# counter up,  4
+# counter up,  8
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:35:24 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:35:24 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:35:26 on Nov 19,2023, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:35:26 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# counter up,  x
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# counter up,  2
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# counter up,  2
+# counter up,  4
+# counter up,  8
+# Reset Counter Value: 10000
+# counter up, 16
+# Reset Counter Value: 1
+# counter up,  1
+# counter up,  1
+# counter up,  2
+run
+# counter up,  4
+# counter up,  8
+# Machine Code: 278
+# 
+# counter up, 16
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+run
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+# counter up,  0
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:39:53 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:39:53 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:39:54 on Nov 19,2023, Elapsed time: 0:04:28
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:39:54 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# ** Warning: (vsim-3008) [CNNODP] - Component name (regIn) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb File: Testing/processor_tb.sv Line: 27
+# ** Error: (vsim-3043) Unresolved reference to 'regIn' in p0.r0.regIn.
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb File: Testing/processor_tb.sv Line: 27
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Testing/run_tb.do PAUSED at line 4
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:40:19 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:40:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:39:54 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv failed with 1 errors.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:42:54 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(62): near "'x": syntax error, unexpected UNSIZED_BIT, expecting ';'.
+# End time: 19:42:55 on Nov 19,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 3
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:43:07 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:43:07 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:43:09 on Nov 19,2023, Elapsed time: 0:03:15
+# Errors: 2, Warnings: 5
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:43:09 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+run -continue
+run
+# Machine Code: 278
+# 
+run -continue
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:47:49 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:47:49 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:47:50 on Nov 19,2023, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:47:50 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:48:10 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:48:10 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:48:11 on Nov 19,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:48:11 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 240
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:50:26 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:50:26 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:50:27 on Nov 19,2023, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:50:27 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 240
+# 
+# Reset Counter Value: 0
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:50:50 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:50:50 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:50:51 on Nov 19,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:50:51 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 0
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:08 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:53:08 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:53:09 on Nov 19,2023, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:53:09 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 0
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:45 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:53:45 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:53:46 on Nov 19,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:53:46 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 0
+# Reset Counter Value: 1
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:54:41 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:54:41 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:54:42 on Nov 19,2023, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 4
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:54:42 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:56:38 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:56:38 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:56:40 on Nov 19,2023, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:56:40 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:57:16 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:57:16 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:57:17 on Nov 19,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 19:57:17 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:59:59 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 19:59:59 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:00:00 on Nov 19,2023, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:00:00 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:06 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:01:07 on Nov 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:01:08 on Nov 19,2023, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:01:08 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:04:28 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:04:29 on Nov 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 20:04:30 on Nov 19,2023, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:04:30 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:09:03 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:09:03 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:09:04 on Nov 19,2023, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:09:04 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:11:07 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:11:07 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:11:08 on Nov 19,2023, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:11:08 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:14:32 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:14:32 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:14:33 on Nov 19,2023, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:14:33 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:20:15 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:20:15 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:20:17 on Nov 19,2023, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:20:17 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv failed with 1 errors.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:21:35 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# ** Error: (vlog-13069) Testing/processor_tb.sv(26): near "enOut": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# End time: 20:21:35 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Testing/run_tb.do line 3
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog Testing/processor_tb.sv"
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:21:45 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:21:45 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:21:46 on Nov 19,2023, Elapsed time: 0:01:29
+# Errors: 1, Warnings: 3
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:21:46 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:23:19 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:23:19 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:23:20 on Nov 19,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:23:20 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:25:10 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:25:10 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:25:11 on Nov 19,2023, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:25:11 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:32:23 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:32:23 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:32:25 on Nov 19,2023, Elapsed time: 0:07:14
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:32:25 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:33:27 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:33:27 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:33:28 on Nov 19,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:33:28 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:37:05 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:37:05 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:37:07 on Nov 19,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:37:07 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 1000
+# Machine Code: 240
+# 
+# Reset Counter Value: 1000
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 1000
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:42:27 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:42:27 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:42:28 on Nov 19,2023, Elapsed time: 0:05:21
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:42:29 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 1 failed with 1 error.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:56:54 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:56:54 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:56:55 on Nov 19,2023, Elapsed time: 0:14:26
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:56:55 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:57:03 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:57:03 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:57:05 on Nov 19,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:57:05 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:58:24 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 20:58:24 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:58:25 on Nov 19,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 3
+# vsim work.processor_tb -suppress 3839 
+# Start time: 20:58:25 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:01:07 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:01:07 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:01:08 on Nov 19,2023, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:01:09 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:01:51 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:01:51 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:01:52 on Nov 19,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:01:52 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:05:25 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:05:25 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:05:26 on Nov 19,2023, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:05:26 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 6d1
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:07:03 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:07:03 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:07:04 on Nov 19,2023, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:07:04 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:07:38 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:07:38 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:07:39 on Nov 19,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:07:39 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+run
+# Machine Code: 64a
+# 
+do Testing/run_tb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Compile of decoder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of function_register.sv was successful.
+# Compile of register_banks.sv was successful.
+# Compile of processor_tb.sv was successful.
+# Compile of processor.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:55 on Nov 19,2023
+# vlog -reportprogress 300 Testing/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 21:10:55 on Nov 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:10:56 on Nov 19,2023, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 2
+# vsim work.processor_tb -suppress 3839 
+# Start time: 21:10:56 on Nov 19,2023
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.processor
+# Loading work.ProgramCounter
+# Loading work.register_bank
+# Loading work.Decoder3to8
+# Loading work.register8
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.function_register
+# hexadecimal
+# Reset Counter Value: x
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 10
+# Reset Counter Value: 1
+# Machine Code: 0
+# 
+# Reset Counter Value: 100
+# Machine Code: 240
+# 
+# Reset Counter Value: 100
+# Reset Counter Value: 1
+# Machine Code: 280
+# 
+# Reset Counter Value: 100
+# Machine Code: 64a
+# 
+# Reset Counter Value: 10000
+# Reset Counter Value: 1
+# Machine Code: 84a
+# 

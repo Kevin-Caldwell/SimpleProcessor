@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/Testing
 vALU
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1700004980
+Z2 !s110 1700408234
 !i10b 1
 !s100 MnXORN6>f]Z3?W6Ri@6YQ1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ R0
 w1700002467
 8../ALU/ALU.sv
 F../ALU/ALU.sv
-!i122 169
+!i122 184
 L0 2 42
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1700004979.000000
+Z6 !s108 1700408234.000000
 !s107 ../ALU/register_banks.sv|../ALU/function_register.sv|../ALU/counter.sv|../ALU/ALU.sv|
 Z7 !s90 -reportprogress|300|../ALU/ALU.sv|../ALU/counter.sv|../ALU/function_register.sv|../ALU/register_banks.sv|
 !i113 1
@@ -36,26 +36,26 @@ Z8 tCvgOpt 0
 n@a@l@u
 vcontrol_FSM
 R1
-Z9 !s110 1700004979
+R2
 !i10b 1
-!s100 _;TiO6^^bS;l8XzTR]X]Y1
+!s100 58dhAzFEmE1O3KgjO140W2
 R3
-INj^HhQWJD_ai^O48=6IX;0
+If]bZoazzOJeN[I6XkCZBN2
 R4
 S1
 R0
-Z10 w1700004977
-Z11 8../processor.sv
-Z12 F../processor.sv
-!i122 167
-L0 74 16
+Z9 w1700007249
+Z10 8../processor.sv
+Z11 F../processor.sv
+!i122 182
+L0 73 16
 R5
 r1
 !s85 0
 31
 R6
-Z13 !s107 ../processor.sv|
-Z14 !s90 -reportprogress|300|../processor.sv|
+Z12 !s107 ../processor.sv|
+Z13 !s90 -reportprogress|300|../processor.sv|
 !i113 1
 R8
 ncontrol_@f@s@m
@@ -69,24 +69,24 @@ IGbM;zzoJBHPSFjV`>o3?02
 R4
 S1
 R0
-Z15 w1700002565
-Z16 8../ALU/counter.sv
-Z17 F../ALU/counter.sv
-!i122 169
+Z14 w1700002565
+Z15 8../ALU/counter.sv
+Z16 F../ALU/counter.sv
+!i122 184
 L0 1 19
 R5
 r1
 !s85 0
 31
 R6
-Z18 !s107 ../ALU/register_banks.sv|../ALU/function_register.sv|../ALU/counter.sv|../ALU/ALU.sv|
+Z17 !s107 ../ALU/register_banks.sv|../ALU/function_register.sv|../ALU/counter.sv|../ALU/ALU.sv|
 R7
 !i113 1
 R8
 n@counter@high
 vDecoder3to8
 R1
-R9
+R2
 !i10b 1
 !s100 Fdo3k2ZN`YO:[nYQMm_zR3
 R3
@@ -94,24 +94,24 @@ I3^0@feJY9XH8<z3;g4gIY3
 R4
 S1
 R0
-Z19 w1699239005
-Z20 8../decoder.sv
-Z21 F../decoder.sv
-!i122 168
+Z18 w1699239005
+Z19 8../decoder.sv
+Z20 F../decoder.sv
+!i122 183
 L0 1 16
 R5
 r1
 !s85 0
 31
 R6
-Z22 !s107 ../decoder.sv|
-Z23 !s90 -reportprogress|300|../decoder.sv|
+Z21 !s107 ../decoder.sv|
+Z22 !s90 -reportprogress|300|../decoder.sv|
 !i113 1
 R8
 n@decoder3to8
 vdecoder8to1
 R1
-R9
+R2
 !i10b 1
 !s100 ?M81L^?h3dZ]HjVh8P@jm3
 R3
@@ -119,42 +119,42 @@ IQLR7zzT^6cI2c]dA::W?@2
 R4
 S1
 R0
+R18
 R19
 R20
-R21
-!i122 168
+!i122 183
 L0 18 28
 R5
 r1
 !s85 0
 31
 R6
+R21
 R22
-R23
 !i113 1
 R8
 vdisplay_IO
 R1
-R9
+R2
 !i10b 1
-!s100 SeUhG0e8RTj8;W>2W`?GG2
+!s100 Q`VB2G:`>>^JGoB=5;Rc]3
 R3
-I=VHbGk<efikZ]O4XkKN`L2
+Im>O>fDBKge@@XblTd2Zho1
 R4
 S1
 R0
+R9
 R10
 R11
-R12
-!i122 167
-L0 91 4
+!i122 182
+L0 90 4
 R5
 r1
 !s85 0
 31
 R6
+R12
 R13
-R14
 !i113 1
 R8
 ndisplay_@i@o
@@ -171,20 +171,20 @@ R0
 w1700004869
 8../ALU/function_register.sv
 F../ALU/function_register.sv
-!i122 169
+!i122 184
 L0 1 110
 R5
 r1
 !s85 0
 31
 R6
-R18
+R17
 R7
 !i113 1
 R8
 vmux8to1
 R1
-R9
+R2
 !i10b 1
 !s100 ;Q]DkSeJ[AEVlWJh?U7e`0
 R3
@@ -192,42 +192,42 @@ I=YVAhKziWA1MOjho]iRn63
 R4
 S1
 R0
+R18
 R19
 R20
-R21
-!i122 168
+!i122 183
 L0 47 19
 R5
 r1
 !s85 0
 31
 R6
+R21
 R22
-R23
 !i113 1
 R8
 vprocessor
 R1
-R9
+R2
 !i10b 1
-!s100 [L4YB0SZ;UPLm@NXYInh<3
+!s100 ]GRF=0NW6IlLH5hkQB5PE1
 R3
-I;CaXmA@MXlz69KhVfY;<l0
+IFk[::;<UW4]P_NP0h2i]h1
 R4
 S1
 R0
+R9
 R10
 R11
-R12
-!i122 167
-L0 1 72
+!i122 182
+L0 1 71
 R5
 r1
 !s85 0
 31
 R6
+R12
 R13
-R14
 !i113 1
 R8
 vProgramCounter
@@ -240,17 +240,17 @@ I6:MKNg7mKZ3WgTkmIX0890
 R4
 S1
 R0
+R14
 R15
 R16
-R17
-!i122 169
+!i122 184
 L0 21 13
 R5
 r1
 !s85 0
 31
 R6
-R18
+R17
 R7
 !i113 1
 R8
@@ -265,17 +265,17 @@ I89fHLKbYJBH7cUFTLPD]c1
 R4
 S1
 R0
-Z24 w1699227520
-Z25 8../ALU/register_banks.sv
-Z26 F../ALU/register_banks.sv
-!i122 169
+Z23 w1700066491
+Z24 8../ALU/register_banks.sv
+Z25 F../ALU/register_banks.sv
+!i122 184
 L0 1 13
 R5
 r1
 !s85 0
 31
 R6
-R18
+R17
 R7
 !i113 1
 R8
@@ -289,17 +289,17 @@ I:kikG]a8FSf]X[bYIgf:S3
 R4
 S1
 R0
+R23
 R24
 R25
-R26
-!i122 169
+!i122 184
 L0 15 13
 R5
 r1
 !s85 0
 31
 R6
-R18
+R17
 R7
 !i113 1
 R8
@@ -307,23 +307,23 @@ vregister_bank
 R1
 R2
 !i10b 1
-!s100 9PJz^P4@5_DBKP2ZzW;fK2
+!s100 n7b]E1kKTVl><Jif9EHPb0
 R3
-IgB[7QTO5c<GOH]aW:F_]k2
+I0gLIDzF:OCAZRdM@iY1JI0
 R4
 S1
 R0
+R23
 R24
 R25
-R26
-!i122 169
-L0 29 28
+!i122 184
+L0 29 40
 R5
 r1
 !s85 0
 31
 R6
-R18
+R17
 R7
 !i113 1
 R8

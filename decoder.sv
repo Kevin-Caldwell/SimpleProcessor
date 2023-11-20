@@ -2,14 +2,14 @@ module Decoder3to8(input logic[2:0] UNSIGNED,
     output logic[7:0] ONE_HOT);
     always_comb begin
         case (UNSIGNED)
-            3'b000: ONE_HOT = 8'b10000000;
-            3'b001: ONE_HOT = 8'b01000000;
-            3'b010: ONE_HOT = 8'b00100000;
-            3'b011: ONE_HOT = 8'b00010000;
-            3'b100: ONE_HOT = 8'b00001000;
-            3'b101: ONE_HOT = 8'b00000100;
-            3'b110: ONE_HOT = 8'b00000010;
-            3'b111: ONE_HOT = 8'b00000001;
+            3'b000: ONE_HOT = 8'b00000001;
+            3'b001: ONE_HOT = 8'b00000010;
+            3'b010: ONE_HOT = 8'b00000100;
+            3'b011: ONE_HOT = 8'b00001000;
+            3'b100: ONE_HOT = 8'b00010000;
+            3'b101: ONE_HOT = 8'b00100000;
+            3'b110: ONE_HOT = 8'b01000000;
+            3'b111: ONE_HOT = 8'b10000000;
             default: ONE_HOT = 8'b0;
         endcase
     end
