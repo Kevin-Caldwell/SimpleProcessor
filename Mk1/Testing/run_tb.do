@@ -1,7 +1,7 @@
 vlib work
 project compileall
 vlog Testing/processor_tb.sv
-vsim work.processor_tb -suppress 3839
+vsim work.processor_tb
 
 add wave -position insertpoint sim:/processor_tb/*
 radix hexadecimal

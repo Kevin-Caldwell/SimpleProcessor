@@ -11,24 +11,24 @@ cModel Technology
 dC:/intelFPGA_lite/20.1
 vALU
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1700446254
+Z1 !s110 1700615583
 !i10b 1
-!s100 9`>_eBQa2e]T;BDn5lnZ@2
+!s100 W31R@aL_Uc_hM9=b8gAdg3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IIRFA[i1e>YOOUVRN6A;Dz1
+I4?iRCUjXX6TZ^b`Y4MP^71
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor
-w1700445747
+w1700609376
 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv
 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv
-!i122 571
-L0 2 43
+!i122 762
+L0 2 40
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1700446254.000000
+Z6 !s108 1700615583.000000
 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/ALU.sv|
 !i113 1
@@ -63,24 +63,24 @@ R8
 n@a@l@u_@r@e@g
 vcontrol_FSM
 R0
-Z13 !s110 1700446255
+Z13 !s110 1700615584
 !i10b 1
-!s100 JP>FcBAKFS<G4ehKGYL:11
+!s100 U:UPTAf49>8VCT^A2z:CO3
 R2
-IEHWFgdk=M;h[Z1Q;Jk3P32
+INO6beiHL@dZVWkI`5d7iD3
 R3
 S1
 R4
-Z14 w1700445625
+Z14 w1700615576
 Z15 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/processor.sv
 Z16 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/processor.sv
-!i122 576
-L0 72 16
+!i122 767
+L0 84 16
 R5
 r1
 !s85 0
 31
-Z17 !s108 1700446255.000000
+Z17 !s108 1700615584.000000
 Z18 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/processor.sv|
 Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/processor.sv|
 !i113 1
@@ -100,7 +100,7 @@ R4
 Z20 w1700440785
 Z21 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/counter.sv
 Z22 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/counter.sv
-!i122 572
+!i122 763
 L0 1 19
 R5
 r1
@@ -126,15 +126,15 @@ R4
 Z25 w1700441992
 Z26 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv
 Z27 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv
-!i122 570
+!i122 761
 L0 1 16
 R5
 r1
 !s85 0
 31
-Z28 !s108 1700446253.000000
-Z29 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv|
-Z30 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv|
+R6
+Z28 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/decoder.sv|
 !i113 1
 R7
 R8
@@ -152,15 +152,15 @@ R4
 R25
 R26
 R27
-!i122 570
+!i122 761
 L0 18 28
 R5
 r1
 !s85 0
 31
+R6
 R28
 R29
-R30
 !i113 1
 R7
 R8
@@ -168,17 +168,17 @@ vdisplay_IO
 R0
 R13
 !i10b 1
-!s100 mV[h`Fnh]WF4K@beY=PT03
+!s100 fBWQkTR=8lgnE1^PC^Oe50
 R2
-Ia@?BUR]PNXYY5VYQLP:3K1
+IJa[X<=1YzSVY>D@l8ehfL2
 R3
 S1
 R4
 R14
 R15
 R16
-!i122 576
-L0 89 4
+!i122 767
+L0 101 4
 R5
 r1
 !s85 0
@@ -192,19 +192,19 @@ R8
 ndisplay_@i@o
 vfunction_register
 R0
-R1
+R13
 !i10b 1
-!s100 jbY2J??A[3L2m[4e59C4g3
+!s100 ^38TmYZYP3JUVO=gJWD8o2
 R2
-ID;HlYmHIjKJSc`87hj[<30
+Iohk1zUd:8kS=FE3C]=LiQ2
 R3
 S1
 R4
-w1700446148
+w1700600196
 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/function_register.sv
 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/ALU/function_register.sv
-!i122 573
-L0 1 103
+!i122 764
+L0 1 119
 R5
 r1
 !s85 0
@@ -228,38 +228,38 @@ R4
 R25
 R26
 R27
-!i122 570
+!i122 761
 L0 47 19
 R5
 r1
 !s85 0
 31
+R6
 R28
 R29
-R30
 !i113 1
 R7
 R8
 vprocessor
 R0
-R13
+!s110 1700614850
 !i10b 1
-!s100 hDD3AJN:SE=ommAPgFboh1
+!s100 n><3Pz5MU:UgBXCB;U^da1
 R2
-IZFbN@l7Jb<=g:z5]eHVam2
+IBm5[15nLW3RJY?P4d_PzU0
 R3
 S1
 R4
-R14
+w1700609230
 R15
 R16
-!i122 576
-L0 1 70
+!i122 749
+L0 1 73
 R5
 r1
 !s85 0
 31
-R17
+!s108 1700614850.000000
 R18
 R19
 !i113 1
@@ -267,19 +267,19 @@ R7
 R8
 vprocessor_tb
 R0
-R13
+!s110 1700615585
 !i10b 1
-!s100 4R58XAN;3M_^`0mA3<3H@0
+!s100 [FS5V752?=OPAR^^D21Y02
 R2
-I6CR@S0Dk1Qf:j_NNVDST_3
+I`D:SJYaTacB@aPBz`bhY11
 R3
 S1
 R4
-w1700446250
+w1700609190
 8Testing/processor_tb.sv
 FTesting/processor_tb.sv
-!i122 577
-L0 3 109
+!i122 769
+L0 3 111
 R5
 r1
 !s85 0
@@ -302,7 +302,7 @@ R4
 R20
 R21
 R22
-!i122 572
+!i122 763
 L0 21 14
 R5
 r1
@@ -317,7 +317,7 @@ R8
 n@program@counter
 vregister
 R0
-R1
+R13
 !i10b 1
 !s100 7eLZR[^`OU0kQRdGjUQ@a1
 R2
@@ -325,16 +325,16 @@ Img]LCESL@S56C?94Ki@iZ3
 R3
 S1
 R4
-Z31 w1700441792
+Z30 w1700609400
 R9
 R10
-!i122 574
+!i122 765
 L0 1 13
 R5
 r1
 !s85 0
 31
-R6
+R17
 R11
 R12
 !i113 1
@@ -342,7 +342,7 @@ R7
 R8
 vregister8
 R0
-R1
+R13
 !i10b 1
 !s100 G4DonEoC[B^gCzO?5lalG3
 R2
@@ -350,16 +350,16 @@ IaZgeKhUakG_@ce]H4^T063
 R3
 S1
 R4
-R31
+R30
 R9
 R10
-!i122 574
+!i122 765
 L0 15 13
 R5
 r1
 !s85 0
 31
-R6
+R17
 R11
 R12
 !i113 1
@@ -367,26 +367,51 @@ R7
 R8
 vregister_bank
 R0
-R1
+R13
 !i10b 1
-!s100 ReOL>;^?T<5e`:5TD?E2h0
+!s100 _S8D;iDa6md^mdfz@_]kJ1
 R2
-I`Q0DlofFIkWd4;G_8UfN_1
+I8^K_Vd1@3>556<b1@]M4=0
 R3
 S1
 R4
-R31
+R30
 R9
 R10
-!i122 574
-L0 29 40
+!i122 765
+L0 29 45
 R5
 r1
 !s85 0
 31
-R6
+R17
 R11
 R12
+!i113 1
+R7
+R8
+vtristate
+R0
+R13
+!i10b 1
+!s100 BlVcC:8=CnCeN]km^o;;`0
+R2
+IY?M_Rh1GcW:0_m70O21gY2
+R3
+S1
+R4
+w1700599720
+8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/tristate.sv
+FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/tristate.sv
+!i122 768
+L0 1 8
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/tristate.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/tristate.sv|
 !i113 1
 R7
 R8

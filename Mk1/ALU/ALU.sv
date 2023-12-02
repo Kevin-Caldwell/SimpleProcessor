@@ -3,7 +3,7 @@ module ALU(input logic clk, input logic async_reset,
     input logic[7:0] bus,
     input logic[2:0] enable_signals, 
     input logic[3:0] func_sel, 
-    output logic[7:0] result);
+    output tri[7:0] result);
 
     logic[7:0] a_i, b_i, r_i;
 
@@ -12,7 +12,6 @@ module ALU(input logic clk, input logic async_reset,
         if(async_reset) begin
             a_i <= 8'b0;
             b_i <= 8'b0;
-            result <= 8'b0;
         end
         else begin
             if(enable_signals[0]) begin
@@ -20,9 +19,6 @@ module ALU(input logic clk, input logic async_reset,
             end
             if(enable_signals[1]) begin
                 b_i <= bus;
-            end
-            if(enable_signals[2]) begin
-                result <= r_i;
             end
         end
     end
@@ -41,4 +37,5 @@ module ALU(input logic clk, input logic async_reset,
             default: r_i = 8'b0;
         endcase
     end
+    tristate T_alu(r_i, enable_signals[2], result);
 endmodule

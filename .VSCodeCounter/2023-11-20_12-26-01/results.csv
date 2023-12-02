@@ -1,0 +1,10 @@
+"filename", "language", "System Verilog", "Markdown", "comment", "blank", "total"
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\ALU.sv", "System Verilog", 37, 0, 1, 7, 45
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\counter.sv", "System Verilog", 31, 0, 1, 2, 34
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\function_register.sv", "System Verilog", 113, 0, 1, 8, 122
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\register_banks.sv", "System Verilog", 58, 0, 0, 10, 68
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\README.md", "Markdown", 0, 2, 0, 2, 4
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\Testing\processor_tb.sv", "System Verilog", 96, 0, 2, 15, 113
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\decoder.sv", "System Verilog", 63, 0, 0, 2, 65
+"c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\processor.sv", "System Verilog", 77, 0, 1, 14, 92
+"Total", "-", 475, 2, 6, 60, 543

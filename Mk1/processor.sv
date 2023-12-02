@@ -11,6 +11,7 @@ module processor(input logic clock, reset, start,
     logic[2:0] enable_register_write, enable_register_read;
     logic[2:0] ALU_enable; // Enable order: 0:A, 1:B, 2:Out
     logic[2:0] opcode, p1, p2, p3; 
+    logic reg_out_enable;
 
 
     assign opcode = machine_code[11:9];
@@ -25,24 +26,34 @@ module processor(input logic clock, reset, start,
         .out(function_counter)
     );
 
+    logic[7:0] register_in, register_out;
     register_bank r0(
         .CLK(clock),
         .RESET(reset),
         .enIn(enable_register_write),
-        .enOut(enable_register_read),
-        .IN(BUS_global),
-        .OUT(BUS_global), 
-        .test_out(reg_test)
+        .out_index(enable_register_read),
+        .IN(register_in),
+        .OUT(register_out), 
+        .test_out(reg_test), 
+        .out_enable(reg_out_enable)
     );
+    assign register_in = BUS_global;
+    assign BUS_global = reg_out_enable ? 
+        register_out : 8'bz;
 
+    logic[7:0] alu_in, alu_out;
+    assign alu_in = BUS_global;
     ALU a0(
         .clk(clock), 
         .async_reset(reset), 
         .bus(BUS_global), 
         .enable_signals(ALU_enable),
         .func_sel(ALU_function_select), 
-        .result(BUS_global)
+        .result(alu_out)
     );
+
+    assign BUS_global = ALU_enable[2] ? 
+        alu_out : 8'bz;
 
     function_register f0(
         .clock(clock), 
@@ -58,7 +69,8 @@ module processor(input logic clock, reset, start,
         .fcnOut(ALU_function_select), 
         .regIn(enable_register_write), 
         .regOut(enable_register_read), 
-        .ALUout(ALU_enable)
+        .ALUout(ALU_enable), 
+        .reg_out_enable(reg_out_enable)
     );
 
     always_comb begin

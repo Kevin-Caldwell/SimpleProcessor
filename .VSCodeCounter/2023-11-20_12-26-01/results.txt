@@ -1,0 +1,36 @@
+Date : 2023-11-20 12:26:01
+Directory : c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor
+Total : 8 files,  477 codes, 6 comments, 60 blanks, all 543 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| System Verilog |          7 |        475 |          6 |         58 |        539 |
+| Markdown       |          1 |          2 |          0 |          2 |          4 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                        |          8 |        477 |          6 |         60 |        543 |
+| . (Files)                                                                                                                |          3 |        142 |          1 |         18 |        161 |
+| ALU                                                                                                                      |          4 |        239 |          3 |         27 |        269 |
+| Testing                                                                                                                  |          1 |         96 |          2 |         15 |        113 |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                 | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\ALU.sv               | System Verilog |         37 |          1 |          7 |         45 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\counter.sv           | System Verilog |         31 |          1 |          2 |         34 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\function_register.sv | System Verilog |        113 |          1 |          8 |        122 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\ALU\register_banks.sv    | System Verilog |         58 |          0 |         10 |         68 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\README.md                | Markdown       |          2 |          0 |          2 |          4 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\Testing\processor_tb.sv  | System Verilog |         96 |          2 |         15 |        113 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\decoder.sv               | System Verilog |         63 |          0 |          2 |         65 |
+| c:\Users\kevin\OneDrive - University of Toronto\Kevin\Programming\SystemVerilog\SimpleProcessor\processor.sv             | System Verilog |         77 |          1 |         14 |         92 |
+| Total                                                                                                                    |                |        477 |          6 |         60 |        543 |
++--------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
