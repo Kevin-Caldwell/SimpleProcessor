@@ -1,10 +1,11 @@
 module processor_MKII(input logic clk, reset, 
     input logic[31:0] machine_code);
-    logic[2:0] ALU_fcn;
+
     logic Reg_R_EN, Reg_W_EN, 
     ALU1_W_EN, ALU2_W_EN, ALU0_R_EN; // Enable Signals
+    logic[4:0] ALU_fcn;
     logic[4:0] Reg_INDEX;
-
+    
     logic[31:0] immediate;
     logic immediate_EN;
 

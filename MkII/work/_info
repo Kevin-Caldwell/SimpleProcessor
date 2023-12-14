@@ -12,7 +12,7 @@ dC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog
 vControl_add
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 Z1 DXx4 work 21 instruction_I_sv_unit 0 22 Y8eXS88@_Dk;:kaCU7iP41
-Z2 !s110 1701477873
+Z2 !s110 1702069972
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
@@ -25,11 +25,11 @@ Z5 dC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVeri
 Z6 w1701403352
 Z7 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/instruction_I.sv
 Z8 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/instruction_I.sv
-!i122 96
+!i122 270
 L0 11 49
 Z9 OV;L;2020.1;71
 31
-Z10 !s108 1701477873.000000
+Z10 !s108 1702069971.000000
 Z11 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/instruction_I.sv|
 Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/instruction_I.sv|
 !i113 1
@@ -52,7 +52,7 @@ R5
 R6
 R7
 R8
-!i122 96
+!i122 270
 L0 61 51
 R9
 31
@@ -63,26 +63,104 @@ R12
 R13
 R14
 n@control_addi
-vcontrolpath
+vControl_Calculate
 R0
-R2
+Z15 !s110 1702498855
 !i10b 1
-!s100 MePW;H]I;dkJW97fO^G_j3
-Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IMoA1Mdjb[i@9TzQzNA:[I0
+!s100 zJ0D5M:Q@dR2nkz4DTRlW0
+Z16 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2CL5TRU3jaK=25KC5o5L82
 R3
 S1
 R5
-w1701477807
-8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv
-FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv
-!i122 94
-L0 1 125
+Z17 w1702424042
+R7
+R8
+!i122 499
+L0 45 44
 R9
 r1
 !s85 0
 31
-R10
+Z18 !s108 1702498854.000000
+R11
+R12
+!i113 1
+R13
+R14
+n@control_@calculate
+vControl_Calculate_Immediate
+R0
+R15
+!i10b 1
+!s100 ^l94UM]lY[O`V<BgM_SS^3
+R16
+IlQ=XiAaLCXoiPhDbLXU?;2
+R3
+S1
+R5
+R17
+R7
+R8
+!i122 499
+L0 1 43
+R9
+r1
+!s85 0
+31
+R18
+R11
+R12
+!i113 1
+R13
+R14
+n@control_@calculate_@immediate
+vControl_lui
+R0
+R15
+!i10b 1
+!s100 NPYAK?=48:JdIN7[C`zgM0
+R16
+I5aK_5A5MPKBm=1D@D?N>01
+R3
+S1
+R5
+R17
+R7
+R8
+!i122 499
+L0 90 38
+R9
+r1
+!s85 0
+31
+R18
+R11
+R12
+!i113 1
+R13
+R14
+n@control_lui
+vcontrolpath
+R0
+Z19 !s110 1702498854
+!i10b 1
+!s100 5BH8m<kl4kEHW^a`QTEBh2
+R16
+IRD8lzVdhU?j5j<eXR6oE00
+R3
+S1
+R5
+w1702414476
+8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv
+FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv
+!i122 497
+L0 1 487
+R9
+r1
+!s85 0
+31
+R18
 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv|
 !i113 1
@@ -90,24 +168,24 @@ R13
 R14
 vdatapath
 R0
-R2
+R19
 !i10b 1
-!s100 B9aaI5M9o<=hHM:9kj08E1
-R15
-IS=PVJc>^aR:U3_e5@moMg1
+!s100 D1M:i^SQ`TMGH<X[k[G0l3
+R16
+IH;05oUM5K_80G0GiX3GYP2
 R3
 S1
 R5
-w1701399718
+w1702053235
 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/datapath.sv
 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/datapath.sv
-!i122 95
-L0 1 72
+!i122 498
+L0 1 81
 R9
 r1
 !s85 0
 31
-R10
+R18
 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/datapath.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/datapath.sv|
 !i113 1
@@ -128,7 +206,7 @@ R5
 R6
 R7
 R8
-!i122 96
+!i122 270
 L0 1 0
 R9
 31
@@ -139,55 +217,131 @@ R12
 R13
 R14
 ninstruction_@i_sv_unit
-vmkII_tb
+vmem_IO
 R0
-Z16 !s110 1701477874
-!i10b 1
-!s100 ?X73^6oTUcd6i`;FBE^dE1
 R15
-IS>JC9alz4=H@;Z`_mjOh;3
+!i10b 1
+!s100 l]aVdAKWo]i9<bjS1YIQ?2
+R16
+I?KLdW]18FzzL?ifG]?;=i2
 R3
 S1
 R5
-w1701477834
-8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv
-FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv
-!i122 97
-L0 1 33
+Z20 w1702418429
+Z21 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/memory_sim.sv
+Z22 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/memory_sim.sv
+!i122 502
+L0 1 45
 R9
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv|
+Z23 !s108 1702498855.000000
+!s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/memory_sim.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/memory_sim.sv|
+!i113 1
+R13
+R14
+nmem_@i@o
+vmemory_io
+R0
+R15
+!i10b 1
+!s100 =N5K4eZVK32QjVhM@AgRa3
+R16
+I_bmFoQQ?I>h^[RU;be7;n1
+R3
+S1
+R5
+Z25 w1702404780
+Z26 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv
+Z27 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv
+!i122 500
+L0 78 15
+R9
+r1
+!s85 0
+31
+R23
+Z28 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/mkII_tb.sv|
+!i113 1
+R13
+R14
+vmkII_tb
+R0
+R15
+!i10b 1
+!s100 ^_ikOS1@FSz@FYXCO3MAC2
+R16
+I[_7hB8_fdFj@kM6bU8C_c0
+R3
+S1
+R5
+R25
+R26
+R27
+!i122 500
+L0 1 73
+R9
+r1
+!s85 0
+31
+R23
+R28
+R29
 !i113 1
 R13
 R14
 nmk@i@i_tb
 vprocessor_MKII
 R0
-R16
-!i10b 1
-!s100 ?4Wh1MZ27WZ`[CK6DECNM0
 R15
-IADcWDPh]JE3F5_cBln@iU0
+!i10b 1
+!s100 E5P4L0c6mB6=jX3n^hdMW2
+R16
+I49[<gaSaRkf@GD0X<j]F03
 R3
 S1
 R5
-w1701399627
+w1702049091
 8C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/processor_mkII.sv
 FC:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/processor_mkII.sv
-!i122 98
-L0 1 45
+!i122 501
+L0 1 46
 R9
 r1
 !s85 0
 31
-!s108 1701477874.000000
+R23
 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/processor_mkII.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/processor_mkII.sv|
 !i113 1
 R13
 R14
 nprocessor_@m@k@i@i
+vtest_mem
+R0
+R15
+!i10b 1
+!s100 7l?kV:c5NYP:i_=beeCMJ1
+R16
+IDWF:N<4`;E_CEYlKAZ=oJ0
+R3
+S1
+R5
+R20
+R21
+R22
+!i122 502
+L0 47 57
+R9
+r1
+!s85 0
+31
+R23
+Z30 !s107 C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/memory_sim.sv|
+R24
+!i113 1
+R13
+R14

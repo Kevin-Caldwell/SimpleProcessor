@@ -1,39 +1,8 @@
 # Compile of controlpath.sv was successful.
 # Compile of datapath.sv was successful.
-# Compile of instruction_I.sv was successful.
+# Compile of instruction_I.sv failed with 2 errors.
 # Compile of instruction_decoder.sv was successful.
 # Compile of mkII_tb.sv was successful.
 # Compile of processor_mkII.sv was successful.
-# 6 compiles, 0 failed with no errors.
-vsim work.mkII_tb
-# vsim work.mkII_tb 
-# Start time: 19:44:40 on Dec 01,2023
-# Loading sv_std.std
-# Loading work.mkII_tb
-# Loading work.processor_MKII
-# Loading work.datapath
-# Loading work.controlpath
-# Loading work.instruction_I_sv_unit
-# Loading work.Control_add
-# Loading work.Control_addi
-# ** Error (suppressible): (vsim-3839) Variable '/mkII_tb/p1/c0/alu_function_sel', driven via a port connection, is multiply driven. See C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv(87).
-#    Time: 0 ps  Iteration: 0  Instance: /mkII_tb/p1/c0/cai File: C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv Line: 105
-# Error loading design
-vsim work.mkII_tb
-# End time: 19:44:40 on Dec 01,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 2
-# vsim work.mkII_tb 
-# Start time: 19:44:41 on Dec 01,2023
-# Loading sv_std.std
-# Loading work.mkII_tb
-# Loading work.processor_MKII
-# Loading work.datapath
-# Loading work.controlpath
-# Loading work.instruction_I_sv_unit
-# Loading work.Control_add
-# Loading work.Control_addi
-# ** Error (suppressible): (vsim-3839) Variable '/mkII_tb/p1/c0/alu_function_sel', driven via a port connection, is multiply driven. See C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv(87).
-#    Time: 0 ps  Iteration: 0  Instance: /mkII_tb/p1/c0/cai File: C:/Users/kevin/OneDrive - University of Toronto/Kevin/Programming/SystemVerilog/SimpleProcessor/MkII/controlpath.sv Line: 105
-# Error loading design
-# End time: 19:44:41 on Dec 01,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
+# Compile of memory_sim.sv was successful.
+# 7 compiles, 1 failed with 2 errors.
